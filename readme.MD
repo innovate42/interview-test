@@ -4,7 +4,7 @@ Welcome to the Innovate42 coding interview.
 
 ### Instructions
 
-Please answer the question below and raise a pull request when done.    
+Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please zip up your files and send them to me daniel@innovate42.com.
 
 ### Overview
 
