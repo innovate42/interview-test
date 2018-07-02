@@ -16,7 +16,12 @@ Square.propTypes = {
     /**
      *  The handler for when a square is clicked
      */
-    onClick: PropTypes.func
+    onClick: PropTypes.func,
+
+    /**
+     *  The value to put in the square
+     */
+    value: PropTypes.string
 };
 
 export default Square;
