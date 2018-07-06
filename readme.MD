@@ -2,6 +2,18 @@
 
 Welcome to the Innovate42 coding interview.
 
+## What we are currently thinking
+
+
+ * ES6 and ES7 - Lets keep up with new features that help.
+ * React with Redux (we like more of the logic in redux (or even better in separate packages), react as the view).
+ * Backend - Serverless or Docker/Express. Database mogo or dynamodb
+ * Modular  - lets break things into separate modules and publish them separately.
+ * Build with Webpack
+ * Jest for Unit testing
+ * We like the look of Observables, and will experiment with them a bit (and probably adopt).
+ 
+
 ### Instructions
 
 Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please either zip up your files and send them to me daniel@innovate42.com.  
@@ -50,6 +62,14 @@ With the app-standalone, please complete the following changes:-
 2. Update the app so that it allows for a named player X and Y, and it keeps a league table of who won each game.
 3. If you get time, implement something that you think that the app could do and is cool.  What other things would you change.
 
+
+### Expectations
+ * Don't spend too long on this, although fairly simple it will take some time.  Limit to 1.5 hours -> if you don't finish that is fine.
+    * -> Finish what you can well.
+ * Some testing, but don't go to town.  But write at least one test case, so that we know you can do it. 
+    * The example code doesn't have much testing - and it should.
+ * Clean, concise code.  Some comments might be nice.
+ * Knowledge of ES6 syntax
 
 
 
