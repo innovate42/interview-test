@@ -49,9 +49,15 @@ Please answer the following questions.
 
     -- 
 
-4. Are you familiar with redux ?  If so what is the basic idea behind it ?
+3. Are you familiar with redux ?  If so what is the basic idea behind it ?
 
     --  
+    
+4. If you are interested in the full-stack role.  Please take a look at the partial implementation of an express routes in backend/router.js.
+
+    * Thinking of a production application, what issues do you see with this code ? 
+
+    --      
 
 
 
