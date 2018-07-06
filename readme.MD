@@ -22,7 +22,7 @@ We can then discuss the changes that you have made.
 
 ### Overview
 
-The directories contain 2 sample apps.  They are  based on the the tic-tac-toe react tutorial, which you can find at [https://reactjs.org/tutorial/tutorial.html].
+The directories contain 3 sample apps.  They are  based on the the tic-tac-toe react tutorial, which you can find at [https://reactjs.org/tutorial/tutorial.html].
 
 The directories are :-
 
