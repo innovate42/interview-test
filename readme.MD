@@ -31,6 +31,7 @@ The directories are :-
 | ------------- |-------------| 
 | app-original      | The original app from the tutorial |
 | app-standalone      | The same app, but re-written slightly. |
+| app-redux      | The same app,using redux. |
 
 ### Questions
 
@@ -56,7 +57,7 @@ Please answer the following questions.
 
 ### Coding Challenges
 
-With the app-standalone, please complete the following changes:-
+With either the  app-standalone or app-redux (**not both** - whichever you are comfortable with), please complete the following changes:-
 
 1. Update the app so that is highlights the winning move.
 2. Update the app so that it allows for a named player X and Y, and it keeps a league table of who won each game.
@@ -66,7 +67,7 @@ With the app-standalone, please complete the following changes:-
 ### Expectations
  * Don't spend too long on this, although fairly simple it will take some time.  Limit to 1.5 hours -> if you don't finish that is fine.
     * -> Finish what you can well.
- * Some testing, but don't go to town.  But write at least one test case, so that we know you can do it. 
+ * Some testing, but don't go to town (for this).  But write at least one test case, so that we know you can do it. 
     * The example code doesn't have much testing - and it should.
  * Clean, concise code.  Some comments might be nice.
  * Knowledge of ES6 syntax
