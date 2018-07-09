@@ -2,21 +2,22 @@
 
 Welcome to the Innovate42 coding interview.
 
-## What we are currently thinking
+## Our tech stack
 
+Innovate42 is a early-stage startup and our stack will evolve as we seek to find the best tools for the job. Currently, we are working or introducing the following:
 
- * ES6 and ES7 - Lets keep up with new features that help.
- * React with Redux (we like more of the logic in redux (or even better in separate packages), react as the view).
- * Backend - Serverless or Docker/Express. Database mogo or dynamodb
- * Modular  - lets break things into separate modules and publish them separately.
- * Build with Webpack
- * Jest for Unit testing
- * We like the look of Observables, and will experiment with them a bit (and probably adopt).
+ * ES6 and ES7 to keep up with new features
+ * React with Redux, with logic in Redux and view in React.
+ * Backend with Serverless or Docker/Express, databases with MongoDB or DynamoDB
+ * We build with Webpack
+ * Jest for unit testing
+ 
+Our philosophy is to build modular, with separate modules published them. We will introduce new frameworks, for example we like the look of Observables and will experiment with them.
  
 
 ### Instructions
 
-Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please either zip up your files and send them to me daniel@innovate42.com.  
+Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please either zip up your files and send them to me daniel@innovate42.com via http://wetransfer.com (GMail blocks ZIP attachments).  
 
 We can then discuss the changes that you have made.
 
@@ -24,7 +25,7 @@ We can then discuss the changes that you have made.
 
 The directories contain 3 sample apps.  They are  based on the the tic-tac-toe react tutorial, which you can find at [https://reactjs.org/tutorial/tutorial.html].
 
-The directories are :-
+The directories are :
 
 
 | Directory     | Contents      |
@@ -35,35 +36,23 @@ The directories are :-
 
 ### Questions
 
-Please answer the following questions. 
+Please answer the following questions:
+    
+1.  Comparing the app-original and app-standalone code bases. The app-standalone code base has put each component in a separate file and directory structure.   
+    * Why do you think that was done, what are the advantages / disadvantages?
 
+2. Thinking about a production ready app, what do you think is missing from all the example. *hint: the square component in the standalone app has one* ?
+
+3. Are you familiar with Redux ?  If so what is the basic idea behind it ?
 
     
-1.  Comparing the app-original and app-standalone code bases.   The app-standalone code base has put each component in a separate file and directory structure.   
-
-    Why do you think that was done, what are the advantages/ disadvantages?
-    
-    --
-
-2. Thinking about a production ready app, what do you think is missing from all the example.  *hint: the square component in the standalone app has one* ?
-
-    -- 
-
-3. Are you familiar with redux ?  If so what is the basic idea behind it ?
-
-    --  
-    
-4. If you are interested in the full-stack role.  Please take a look at the partial implementation of an express routes in backend/router.js.
-
+4. *If you are interested in the full-stack role* Please take a look at the partial implementation of an express routes in backend/router.js.
     * Thinking of a production application, what issues do you see with this code ? 
-
-    --      
-
 
 
 ### Coding Challenges
 
-With either the  app-standalone or app-redux (**not both** - whichever you are comfortable with), please complete the following changes:-
+With either the  app-standalone or app-redux (**not both** - whichever you are comfortable with), please complete the following changes:
 
 1. Update the app so that is highlights the winning move.
 2. Update the app so that it allows for a named player X and Y, and it keeps a league table of who won each game.
@@ -71,12 +60,12 @@ With either the  app-standalone or app-redux (**not both** - whichever you are c
 
 
 ### Expectations
- * Don't spend too long on this, although fairly simple it will take some time.  Limit to 1.5 hours -> if you don't finish that is fine.
-    * -> Finish what you can well.
- * Some testing, but don't go to town (for this).  But write at least one test case, so that we know you can do it. 
-    * The example code doesn't have much testing - and it should.
- * Clean, concise code.  Some comments might be nice.
- * Knowledge of ES6 syntax
+ * We don't want you to spend too long on this exercise, just the necessary amount of time to show your front-end and back-end skills. We expect it to take 1.5 hours if you have React experience, longer if you have no React experience. 
+    * If you don't answer all questions, that is fine. We prefer depth on a few questions rather than superficial answers.
+ * Some testing, but not extensive. Have at least one test case, so that we know you can do it. 
+    * You'll notice the example code doesn't have much testing. It should.
+ * Clean, concise code. Comments are appreciated.
+ * Knowledge of ES6 syntax.
 
 
 
