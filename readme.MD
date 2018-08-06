@@ -41,14 +41,25 @@ Please answer the following questions:
 1.  Comparing the app-original and app-standalone code bases. The app-standalone code base has put each component in a separate file and directory structure.   
     * Why do you think that was done, what are the advantages / disadvantages?
 
+Having each components in a separate file makes the app more readable (easy to understand just by looking at the file structure) and reusable (we can reuse components for other projects).
+It also allow the work to be shared within the team.
+
 2. Thinking about a production ready app, what do you think is missing from all the example. *hint: the square component in the standalone app has one* ?
+Unit tests
 
 3. Are you familiar with Redux ?  If so what is the basic idea behind it ?
-
+I'm not familiar with Redux but I understand that it helps us managing the state of our application.
     
 4. *If you are interested in the full-stack role* Please take a look at the partial implementation of an express routes in backend/router.js.
     * Thinking of a production application, what issues do you see with this code ? 
-
+- Use of `var`
+- Use of `console.log`
+- The code should be modular (router/controller/adapter) and not in one file.
+- Use of `next` (no middleware involve)
+- `dbName` should be stored in environment variables
+- Incorrect indentation and spacing
+- Mongodb allows async await, we may want to use it instead of promise chain.
+- no tests
 
 ### Coding Challenges
 
