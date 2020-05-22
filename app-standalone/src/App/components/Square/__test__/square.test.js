@@ -1,13 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Square from '../../Square';
-
+import Square from '../index';
 
 describe('Square', () => {
 
     it('renders the props.value passed in ', () => {
-        const onClickHandler = jest.fn();
         const wrapper = shallow(<Square value='X'/>);
         expect(wrapper.find('button').text()).toEqual('X');
     });

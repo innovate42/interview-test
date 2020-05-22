@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 const url = process.env['mongodb'];
 const dbName = 'catalog';
@@ -14,9 +14,8 @@ function queryProduct(query) {
         .then((client) => {
             console.log("Connected successfully to server");
             const db = client.db(dbName);
-
-
             const collection = db.collection('entries');
+
             return collection.find(query).toArray().then((docs) => {
 
                 client.close();
@@ -24,10 +23,9 @@ function queryProduct(query) {
                 return docs;
             });
         });
-
 }
 
-router.get('/product', async function (req, res, next) {
+router.get('/product', async function (req, res) {
 
     const query = req.query;
     console.log('query', query);
