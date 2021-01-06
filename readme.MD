@@ -26,7 +26,7 @@ We will continue to discuss & add new tech where we feel it would improve our pr
 
 ### Instructions
 
-Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please zip up your files and send them to me daniel@limio.com via http://wetransfer.com (GMail blocks ZIP attachments).  
+Please answer the question below (just write the answers in the spaces provided). Once the coding examples are done, please zip up your files and send them via http://wetransfer.com (GMail blocks ZIP attachments).  
 
 We can then discuss the changes that you have made.
 
