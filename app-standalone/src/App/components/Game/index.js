@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Board from "../Board";
+import Players from '../Players';
 
 /**
  * A game of tic-tac-toe.
@@ -24,7 +25,7 @@ const Game = () => {
         for (let i = 0; i < lines.length; i++) {
             const [a, b, c] = lines[i];
             if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-                return squares[a];
+                return [squares[a], [a, b, c]];
             }
         }
 
@@ -50,6 +51,12 @@ const Game = () => {
     const jumpTo = (step) => {
         setStepNumber(step);
         setXisNext(step % 2 === 0);
+        if (step !== current) {
+          for (let i = 0; i < 9; i++) {
+            const resetSquare = document.getElementById("square-" + i);
+            resetSquare.classList.remove("square-won");
+          }
+        }
     };
 
     const current = gameHistory[stepNumber];
@@ -68,13 +75,20 @@ const Game = () => {
 
     let status;
     if (winner) {
-        status = "Winner: " + winner;
+        status = "Winner: " + winner[0];
+        for (let i = 0; i < winner[1].length; i++) {
+          const winningSquare = document.getElementById("square-" + winner[1][i]);
+          winningSquare.classList.add("square-won");
+        }
     } else {
-        status = "Next player: " + (xIsNext ? "X" : "O");
+      status = "Next player: " + (xIsNext ? "X" : "O" );
     }
 
     return (
         <div className="game">
+            <div className="players">
+                <Players/>
+            </div>
             <div className="game-board">
                 <Board
                     squares={current.squares}

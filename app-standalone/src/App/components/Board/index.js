@@ -10,6 +10,7 @@ const Board = ({onClick, squares}) => {
     const renderSquare = (i) => (
         <Square
             value={squares[i]}
+            index={i}
             onClick={() => onClick(i)}
         />
     );

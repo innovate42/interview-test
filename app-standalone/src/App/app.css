@@ -36,6 +36,12 @@ ol, ul {
     width: 34px;
 }
 
+.square-won {
+    background: yellow;
+    border: 1px dotted #111;
+    color: black;
+}
+
 .square:focus {
     outline: none;
 }
@@ -52,8 +58,27 @@ ol, ul {
 
 .game-info {
     margin-left: 20px;
+  }
+
+.game-info > ol {
+  margin: 5px;
 }
 
 .appContainer {
 
+}
+
+p {
+  display: inline;
+}
+
+.players {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin: 24px;
+}
+
+.change-player-name {
+  margin: 12px;
 }
