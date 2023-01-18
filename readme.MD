@@ -47,11 +47,26 @@ The directories are:
 Please answer the following questions:
     
 1. Comparing the app-original and app-standalone code bases. The app-standalone code base has put each component in a separate file and directory structure.   
+
    * Why do you think that was done, what are the advantages / disadvantages?
+
+The advantages of the app-standalone having each component in a separte file and direcotry stucture is that you are able to change/update each compenent without needing to go through the whole code and its also good because it can prevent you from breaking the whole app and its also easier to look/find to work on. it is also a advantage because you can test each component seprately (unit testing)
+You can reuse the compents eg. DRY method For the squares.
+
+The disadvantages are that if the project gets bigger there would be more bundling which means it could take longer to build, it also can be overwhelming for someone looking at the codebase for the first time.
+
 
 2. Thinking about a production ready app, what do you think is missing from all the examples? *Hint: the square component in the standalone app has one*
 
+a test file which is what you need to make sure all the information you are inputting is coming back as a pass in the terminal but that also make sures that the logic you are writing is correct and fuctional.
+
+
+
 3. Are you familiar with Redux? If so what is the basic idea behind it and what would be a good case for using it?
+
+i know it is state management (stores information) and it allows all components to see the state it it avoids prop drilling however i have not used it yet.
+
+
 
 4. *If you are interested in the full-stack role* Please take a look at the partial implementation of an express routes in backend/router.js.
     * Thinking of a production application, what issues do you see with this code? *List as many as you like* 
@@ -60,8 +75,11 @@ Please answer the following questions:
 
 With either the app-standalone or app-redux (**not both** - whichever you are comfortable with), please complete the following changes:
 
-1. Update the app so that is highlights the winning move.
+1. Update the app so that is highlights the winning move. DONE
+
 2. Update the app so that it allows for a named player X and Y, and it keeps a league table of who won each game.
+
+
 3. If you get time, implement something that you think that the app could do and is cool. What other things would you change.
 
 ### Expectations
@@ -86,3 +104,4 @@ With either the app-standalone or app-redux (**not both** - whichever you are co
 
 
 
+# interview-test
