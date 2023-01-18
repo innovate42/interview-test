@@ -22,7 +22,7 @@ ol, ul {
 }
 
 .square {
-    background: #fff;
+    background: rgb(241, 245, 243);
     border: 1px solid #999;
     float: left;
     font-size: 24px;
@@ -35,6 +35,12 @@ ol, ul {
     text-align: center;
     width: 34px;
 }
+
+/* this renders any square with a winning sqaure class green */
+.winningSquare {
+    background:rgb(3, 246, 125)
+}
+
 
 .square:focus {
     outline: none;
